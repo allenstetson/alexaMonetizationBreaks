@@ -24,6 +24,7 @@ This is a fictional skill called "Camp List" which does absolutely nothing excep
 
 1. Follow the first 5 steps above, setting up your skill, your lambda, and your local code directory.  (Make sure that you have an appropriate IAM role set up to assign)
 2. Clone this repo into that directory on your local machine.
-3. _ask deploy_ and make sure that it builds correctly.
-4. Follow steps 13 and 14
+3. Change all instances of skill ID from my old ID to your new one.
+4. _ask deploy_ and make sure that it builds correctly.
+5. Follow steps 13 and 14
 
