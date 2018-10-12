@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "type": "ENTITLEMENT",
+  "referenceName": "cave_quest",
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "Cave Quest",
+        "summary": "  5 new adventures for your collection",
+        "description": "The Cave Quest expansion pack includes 5 brand new adventures for your collection. Venture into even deeper and darker caves with Emerald and her friends, and collect up to 30 unique treasures. Adventures will automatically be playable once you've completed your purchase, and you can play them as often as you'd like.",
+        "smallIconUri": "https://s3.amazonaws.com/dart-battle-resources/scenarios/prospector/iconProspectors_108.png",
+        "largeIconUri": "https://s3.amazonaws.com/dart-battle-resources/scenarios/prospector/iconProspectors_512.png",
+        "examplePhrases": [
+          "Alexa, play cave quest",
+          "Alexa, buy cave quest"
+        ],
+        "keywords": [
+          "Games"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "{PREMIUM_CONTENT_TITLE} includes 5 new adventures with Emerald and her friends.",
+          "boughtCardDescription": "Enjoy {PREMIUM_CONTENT_TITLE} by asking Alexa to play cave quest."
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2018-01-28T01:25Z",
+        "defaultPriceListing": {
+          "price": 1.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "SOFTWARE"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "http://dartbattle.fun/"
+      }
+    }
+  },
+  "testingInstructions": "Ask Dart Battle 'How do I get more scenarios?' and follow the prompts to purchase Prospector's Predicament.",
+  "purchasableState": "PURCHASABLE"
+}

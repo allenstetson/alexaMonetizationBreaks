@@ -1,0 +1,48 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.dd5d7a51-807e-46b4-9d35-b1dee185423a",
+      "was_cloned": false,
+      "resources": {
+        "manifest": {
+          "eTag": "366573cd7c99f5d4ee893c82088cbcc0"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "49ec4d46b8b4a258b7fb27a436ccb905"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:681242437315:function:camplist",
+            "awsRegion": "us-east-1",
+            "functionName": "arn:aws:lambda:us-east-1:681242437315:function:camplist",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "36cecb0a-1e45-4f2d-a436-0f3a66d6204b"
+          }
+        ]
+      },
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:681242437315:function:camplist"
+              }
+            }
+          }
+        }
+      },
+      "in_skill_products": [
+        {
+          "deploy_status": "Update",
+          "filePath": "isps\\entitlement\\test_item.json",
+          "productId": "amzn1.adg.product.16e3d21a-2956-49d4-8103-724098135655",
+          "eTag": "7520f55cd53723589cd6d040144a4cbe"
+        }
+      ]
+    }
+  }
+}
