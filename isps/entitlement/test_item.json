@@ -11,15 +11,14 @@
         "smallIconUri": "https://s3.amazonaws.com/dart-battle-resources/scenarios/prospector/iconProspectors_108.png",
         "largeIconUri": "https://s3.amazonaws.com/dart-battle-resources/scenarios/prospector/iconProspectors_512.png",
         "examplePhrases": [
-          "Alexa, play cave quest",
           "Alexa, buy cave quest"
         ],
         "keywords": [
           "Games"
         ],
         "customProductPrompts": {
-          "purchasePromptDescription": "{PREMIUM_CONTENT_TITLE} includes 5 new adventures with Emerald and her friends.",
-          "boughtCardDescription": "Enjoy {PREMIUM_CONTENT_TITLE} by asking Alexa to play cave quest."
+          "purchasePromptDescription": "Pink Unicorns includes 5 new adventures with Emerald and her friends.",
+          "boughtCardDescription": "Enjoy Pink Unicorns by asking Alexa to play cave quest."
         }
       }
     },
@@ -46,6 +45,6 @@
       }
     }
   },
-  "testingInstructions": "Ask Dart Battle 'How do I get more scenarios?' and follow the prompts to purchase Prospector's Predicament.",
+  "testingInstructions": "Ask pink unicorns to shop or to buy.",
   "purchasableState": "PURCHASABLE"
 }

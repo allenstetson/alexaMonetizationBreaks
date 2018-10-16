@@ -1,38 +1,66 @@
 {
-  "interactionModel": {
-    "languageModel": {
-      "invocationName": "camp list",
-      "intents": [
-        {
-          "name": "AMAZON.FallbackIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.CancelIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.HelpIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.StopIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.NavigateHomeIntent",
-          "samples": []
-        },
-        {
-          "name": "ShopIntent",
-          "samples": [
-            "How can I buy things",
-            "purchase items",
-            "I want to shop",
-            "shop"
-          ]
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "pink unicorns",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CancelProductIntent",
+                    "slots": [
+                        {
+                            "name": "product_name",
+                            "type": "SampleProducts"
+                        }
+                    ],
+                    "samples": [
+                        "Cancel product"
+                    ]
+                },
+                {
+                    "name": "BuyProductIntent",
+                    "slots": [
+                        {
+                            "name": "product_name",
+                            "type": "SampleProducts"
+                        }
+                    ],
+                    "samples": [
+                        "Buy {product_name}",
+                        "Buy"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "SampleProducts",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "pink unicorns"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
     }
-  }
 }
